@@ -1,0 +1,83 @@
+* {
+    margin:0;
+    padding:0;
+    box-sixing:border-box;
+}
+body {
+    font-size: 14px;
+    background-color:bisque;
+}
+.container {
+    background-color:coral;
+    width:500px;
+    padding: 25px;
+    margin:50px auto 0;
+    border-top: 5px solid crimson;
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+    
+}
+
+.container h2 {
+    font-size: 22px;
+    line-height: 24px;
+    padding: 25px;
+    text-align: center;
+}
+.input-name {
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.lock {
+    padding: 5px 5px;
+}
+.input-name name {
+    width: 100%;
+    display: inline-block;
+    height: 35px;
+    padding: 0px 15px;
+}
+
+
+.input-name span {
+    margin-left: 35px;
+
+}
+.text-name {
+    width: 100%;
+    display: inline-block;
+    height: 35px;
+    padding: 0px 15px;
+}
+
+
+.input-name i {
+    position:absolute;
+    font-size: 18px;
+    color: crimson;
+}
+.email {
+    padding: 
+}
+.text-name, .name{
+    border: 1px solid #cccccc;
+}
+.course{
+    width: 100%;
+    display: inline-block;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    color: black;
+
+}
+.country{
+    width: 100%;
+    display: inline-block;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    color: black;
+}
